@@ -5,7 +5,7 @@ import time
 
 
 print("Cronograma iniciado")
-schedule.every(30).minutes.do(lambda: os.system('scrapy crawl clima'))
+schedule.every(60).minutes.do(lambda: os.system('scrapy crawl clima'))
 print(f"Próximo trabalho está configurado para rodar as {str(schedule.next_run())}")
 
 
