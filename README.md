@@ -29,7 +29,7 @@ Não interrompa o Splash para o Scrapy funcionar normalmente<br>
 
 ## Rodando o Scrapy
 Acesse a pasta *climatempo* onde terá um arquivo *scrapy.cfg* e execute o comando:<br>
-```scrapy crawl climatempo```<br>
+```scrapy crawl clima```<br>
 O programa deve funcionar perfeitamente e os dados estarão no Mongodb para visualização.<br>
 
 ## Executando o Scrapy de uma em uma hora automaticamente
