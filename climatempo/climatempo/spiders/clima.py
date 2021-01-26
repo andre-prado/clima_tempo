@@ -33,12 +33,12 @@ class ClimaSpider(scrapy.Spider):
         data = datetime.now()
 
         yield {
-            "temperatura(º)": temperatura.split()[0],
+            "temperatura": temperatura.split()[0],
             "status": status,
             "cidade": cidade,
-            "sensacao termica(º)": sensacao_termica.split()[0].replace("º",""),
-            "velocidade do vento(KM/h)": velocidade_vento.split()[0],
-            "pressao atmosferica": pressao_atmosferica.split()[0],
-            "umidade relativa(%)": umidade_relativa.split()[0].replace("%",""),
-            "data e hora": f"{data.day}/{data.month}/{data.year} - {data.hour}:{data.minute}"
+            "sensacao_termica": sensacao_termica.split()[0].replace("º",""),
+            "velocidade_vento": velocidade_vento.split()[0],
+            "pressao_atmosferica": pressao_atmosferica.split()[0],
+            "umidade_relativa": umidade_relativa.split()[0].replace("%",""),
+            "data_e_hora": f"{data.day}/{data.month}/{data.year} - {data.hour}:{data.minute}"
         }
