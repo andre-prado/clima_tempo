@@ -3,13 +3,6 @@ Projeto criado com Scrapy e Splash.<br>
 Dados coletados do site *https://www.climatempo.com.br/*<br>
 Mongodb foi utilizado como database para guardar as informações coletadas pelo Scrapy.<br>
 
-## Acesso ao Mongodb
-Para visualizar os dados no Mongodb conecte-se ao banco com essa string:<br>
-```mongodb+srv://admin:bjZy5MpC3UHVb2X@cluster0.tsc5b.mongodb.net/climatempo?retryWrites=true&w=majority```<br>
-Como este é um repositório privado, estou deixando os dados expostos aqui no README.md e nos arquivos do programa para facilitar os testes.
-
-
-
 ## Instalando Dependências do Projeto
 De preferência utilize um ambiente virtual como o virtualenv para instalar os pacotes<br>
 Para não dar erro na instalação dos pacotes, utilize a versão do Python3.8 ou superior<br>
@@ -19,7 +12,7 @@ Na raiz do projeto rode o comando a seguir para instalar as depêndencias:<br>
 ## Splash e Docker
 Este scrapy foi criado utilizando Splash e Docker para poder pegar dados da página *tempoagora.com.br* que é gerada em Javascript<br>
 O Scrapy não funcionará caso não esteja instalado e rodando o Splash e o Docker<br>
-Assumindo que o Docker já esteja instalado, instale o Splash com o comando:<br>
+Assumindo que o Docker esteja instalado, instale o Splash com o comando:<br>
 ```docker pull scrapinghub/splash```<br>
 
 Após o termino do comando a cima, execute o comando a seguir para rodar o Splash:<br>
