@@ -25,7 +25,7 @@ Acesse a pasta *climatempo* onde terá um arquivo *scrapy.cfg* e execute o coman
 ```scrapy crawl clima```<br>
 O programa deve funcionar perfeitamente e os dados estarão no Mongodb para visualização.<br>
 
-## Executando o Scrapy de uma em uma hora automaticamente
+## Executando o Scrapy a cada uma hora automaticamente
 Há um arquivo chamado *cronograma.py* dentro da pasta *climatempo*, a mesma pasta onde foi executado o ```scrapy crawl climatempo```<br>
 Ao executar este arquivo o Scrapy ficará sendo executado automaticamente a cada uma hora, *desde que o terminal não seja interrompido*<br>
 Para rodar o cronograma:<br>
